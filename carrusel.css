@@ -1,136 +1,147 @@
 .text-white {
     text-shadow: 1px 1px 5px black;
 }
-.parte-2 {
+.parte-dos {
     padding: 20px;
-    height: 250vh;
-
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+    /* border: 1px solid red; */
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.534);
+    width: 100%;
+    
     
 }
-.carrusel {
+.carrusel-container2 {
+    overflow-x: scroll ;
+    white-space: nowrap;
     
-    border: 1px solid black;
-    width: 100%;
-    height: 150px;
-    display: flex;
-    flex-direction: row;
-    position:absolute;
-    align-items: center;
-    justify-content: center;
-    background-color: rgb(204, 204, 204);
+    width: 80%;
+    margin: auto;
+    /* box-shadow: 1px 1px 10px black; */
+}
+ .control{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: rgba(0, 0, 0, 0.719);
+    cursor: pointer;
+    object-fit: cover;
+    
+
+}
+.prev {
+    left: 0;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+::-webkit-scrollbar {
+    height: 10px;
+}
+::-webkit-scrollbar-thumb {
+    background-color: rgba(83, 83, 83, 0.705);    /* color of the scroll thumb */
+    border-radius: 20px;       /* roundness of the scroll thumb */
+    }
+
+
+
+.carrusel2 {
+    
+    
+   
+    
+    display: inline-flex;
+    /* flex-direction: row; */
+    /* position:absolute; */
+    /* lign-items: center;
+    justify-content: center; */
+    
+    
+    
     
     /* position: relative; */
 }
+.carrusel2 > div {
+    min-width: 150px;
+    min-height: 100px;
+    margin: 10px;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 1px 1px 5px black;
+}
+
 .img-1 {
     background-image: url(./images/rio.jpeg);
-    width: 150px;
-    height: 100px;
     background-size: contain;
     background-repeat: no-repeat;
-    background-position: center;
-    position: relative;
-    margin: 10px;
-    overflow: hidden;
-    
-}
-.text-img-1 {
-    position: absolute;
-    
-    width: 150px;
-    height: 200px;
-    background-color: black;
-    opacity: 0.5;
-    top: 80px;
-    font-size: smaller;
-}
-.text-img-1:hover {
-    transform: translateY(-80px);
-    transition: 0.5s;
+    background-position: center;  
 }
 .img-2 {
     background-image: url(./images/rusia.jpeg);
-    width: 150px;
-    height: 100px;
     background-size: contain;
     background-repeat: no-repeat;
-    background-position: center;
-    position: relative;
-    margin: 10px;
-    overflow: hidden;
-
-
-}
-.text-img-2 {
-    position: absolute;
-    
-    width: 150px;
-    height: 200px;
-    background-color: black;
-    opacity: 0.5;
-    top: 80px;
-    font-size: smaller;
-}
-
-.text-img-2:hover {
-    transform: translateY(-80px);
-    transition: 0.5s;
-    
+    background-position: center;  
 }
 .img-3 {
     background-image: url(./images/australia.jpeg);
-    width: 150px;
-    height: 100px;
-    background-size: 125%;
+    background-size: contain;
     background-repeat: no-repeat;
-    background-position: center;
-    position: relative;
-    margin: 10px;
-    overflow: hidden;
-
-
-}
-.text-img-3 {
-    position: absolute;
-    
-    width: 150px;
-    height: 200px;
-    background-color: black;
-    opacity: 0.5;
-    top: 80px;
-    font-size: smaller;
-}
-
-.text-img-3:hover {
-    transform: translateY(-80px);
-    transition: 0.5s;
-    
+    background-position: center; 
+    background-size: 120%; 
 }
 .img-4 {
     background-image: url(./images/roma.jpg);
-    width: 150px;
-    height: 100px;
-    background-size: 125%;
+    background-size: contain;
     background-repeat: no-repeat;
-    background-position: center;
-    position: relative;
-    margin: 10px;
-    overflow: hidden;
-
-
+    background-position: center;  
 }
-.text-img-4 {
+.img-5 {
+    background-image: url(./images/auroras\ noruega.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;  
+}
+.img-6 {
+    background-image: url(./images/grecia.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;  
+    background-size: 110%;
+}
+.img-7 {
+    background-image: url(./images/egipto.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;  
+}
+
+.text-img {
     position: absolute;
-    
-    width: 150px;
+    bottom: 0;
+    left: 0;
+    width: 100%;
     height: 200px;
-    background-color: black;
-    opacity: 0.5;
+    background-color: rgba(0, 0, 0, 1);
+    box-sizing: border-box;
+    opacity: 0;
     top: 80px;
     font-size: smaller;
+    transition: opacity 0.5s ease;
 }
 
-.text-img-4:hover {
+.text-img:hover {
     transform: translateY(-80px);
     transition: 0.5s;
+    
+}
+.carrusel > div:hover > .text-img{
+    opacity: 0.5;
+}
+/*  */
+
+.parte-media {
+    height: 300px;
     
 }
