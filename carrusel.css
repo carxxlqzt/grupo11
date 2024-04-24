@@ -136,7 +136,7 @@
     transition: 0.5s;
     
 }
-.carrusel > div:hover > .text-img{
+.carrusel2  > div:hover > .text-img{
     opacity: 0.5;
 }
 /*  */
