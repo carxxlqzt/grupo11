@@ -64,8 +64,8 @@
     /* position: relative; */
 }
 .carrusel > div {
-    min-width: 150px;
-    min-height: 100px;
+    min-width: 220px;
+    min-height: 150px;
     margin: 10px;
     position: relative;
     overflow: hidden;
@@ -128,13 +128,13 @@
     background-color: rgba(0, 0, 0, 1);
     box-sizing: border-box;
     opacity: 0;
-    top: 80px;
+    top: 130px;
     font-size: smaller;
     transition: opacity 0.5s ease;
 }
 
 .text-img:hover {
-    transform: translateY(-80px);
+    transform: translateY(-130px);
     transition: 0.5s;
     
 }
@@ -143,7 +143,3 @@
 }
 /*  */
 
-.parte-media {
-    height: 300px;
-    
-}
