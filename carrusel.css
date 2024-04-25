@@ -13,7 +13,7 @@
     
     
 }
-.carrusel-container {
+.carrusel-container2 {
     overflow-x: scroll ;
     white-space: nowrap;
     
@@ -47,7 +47,7 @@
 
 
 
-.carrusel {
+.carrusel2 {
     
     
    
@@ -63,7 +63,7 @@
     
     /* position: relative; */
 }
-.carrusel > div {
+.carrusel2 > div {
     min-width: 220px;
     min-height: 150px;
     margin: 10px;
@@ -71,9 +71,7 @@
     overflow: hidden;
     box-shadow: 1px 1px 5px black;
 }
-.carrusel > div > .text-img {
-    
-}
+
 .img-1 {
     background-image: url(./images/rio.jpeg);
     background-size: contain;
@@ -138,7 +136,7 @@
     transition: 0.5s;
     
 }
-.carrusel > div:hover > .text-img{
+.carrusel2  > div:hover > .text-img{
     opacity: 0.5;
 }
 /*  */

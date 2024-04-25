@@ -1,5 +1,27 @@
+*{
+    font-family: "Sofia Sans Condensed", sans-serif;
+
+
+}
+.cursive{
+    font-family: "Mogra", system-ui !important; 
+    
+}
+.phrase{
+    width: 40% !important;
+    margin-left: 2rem;
+}
+.phrase button {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
 .links{
     margin-left: 8rem !important;
+}
+.homecarrousel{
+    margin-top: 5rem !important;
+    margin-bottom: 5rem !important;
+
 }
 .navlinks{
     width:80% !important
@@ -14,10 +36,19 @@
     margin-bottom: 20px;
 
 }
+.palm{
+    height:2rem;
+    margin-right: 1rem;
+}
+.titlepage{
+    font-family: "Love Ya Like A Sister" !important;
+    font-weight: 400;}
 .nav-fixed {
     position: fixed;
+    top:0;
     width: 100%;
-    height: 20vh;
-    z-index: 1;
+    height: 10%;
+    z-index:1;
+    
 
 }
