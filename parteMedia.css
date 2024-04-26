@@ -1,3 +1,6 @@
+.color-blanco{
+    color: white;
+}
 .parte-media {
     height: 100%;
     margin-top: 80px;
@@ -24,6 +27,12 @@
     box-shadow: 1px 1px 5px black;
     text-decoration: none;
     
+}
+.postcards-first a:hover{
+    transform: scale(1.01);
+}
+.postcards-second a:hover{
+    transform: scale(1.01);
 }
 /* .postcards-first a:hover {
     
@@ -129,30 +138,52 @@
     
     
 }
+.hospedaje-imagenes a:hover{
+    transform: scale(1.2);
+}
 .hotel {
     background-image:linear-gradient(rgba(0, 0, 0, 0.514), rgba(0, 0, 0, 0)), url(./images/hotel.jpg);
     background-position: center;
     background-size: cover;
+    transition: transform 0.3s ease;
 }
 .depa {
     background-image:linear-gradient(rgba(0, 0, 0, 0.514), rgba(0, 0, 0, 0)), url(./images/departamento.jpg);
     background-position: center;
     background-size: cover;
+    transition: transform 0.3s ease;
 }
 .casa {
     background-image:linear-gradient(rgba(0, 0, 0, 0.514), rgba(0, 0, 0, 0)), url(./images/casa.jpg);
     background-position: center;
     background-size: cover;
+    transition: transform 0.3s ease;
 }
 .camping {
     background-image:linear-gradient(rgba(0, 0, 0, 0.514), rgba(0, 0, 0, 0)), url(./images/camping.jpg);
     background-position: center;
     background-size: cover;
+    transition: transform 0.3s ease;
 }
 .caba {
     background-image:linear-gradient(rgba(0, 0, 0, 0.514), rgba(0, 0, 0, 0)), url(./images/cabañas.jpg);
     background-position: center;
     background-size: cover;
+    transition: transform 0.3s ease;
+}
+.suscribe{
+    width: 100%;
+    min-height: 200px;
+    height: 100%;
+    background-color: rgb(0, 90, 90);
+    
+}
+.box1 div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
 }
 
 
