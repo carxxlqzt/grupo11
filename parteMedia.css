@@ -1,0 +1,167 @@
+.parte-media {
+    height: 100%;
+    margin-top: 80px;
+    position: relative;
+    margin-bottom: 30px;
+    
+}
+.postcards-container {
+    
+}
+.postcards-first {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    
+}
+.postcards-first a {
+    width: 40%;
+    height: 300px;
+    margin-right: 10px;
+    margin-top: 10px;
+    box-shadow: 1px 1px 5px black;
+    text-decoration: none;
+    
+}
+/* .postcards-first a:hover {
+    
+    opacity: 1;
+    background: linear-gradient(  rgb(0, 0, 0), black);
+} */
+.hornocal {
+    background-image:linear-gradient(rgba(0, 0, 0, 0.514), rgba(0, 0, 0, 0)), url(./images/el\ hornocal.jpeg);
+    background-position: center;
+    background-size: cover;
+    
+    
+}
+.atuel{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.514), rgba(0, 0, 0, 0)), url(./images/cañon\ del\ atuel.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-size: 110%;
+}
+.postcards-second {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+}
+.postcards-second a {
+    width: 26.3%;
+    height: 250px;
+    margin-right: 15px;
+    margin-top: 15px;
+    margin-bottom:10px;
+    box-shadow: 1px 1px 5px black;
+    text-decoration: none;
+}
+.iguazu {
+    background-image:linear-gradient(rgba(0, 0, 0, 0.514), rgba(0, 0, 0, 0)), url(./images/cataratas.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.fritz {
+    background-image:linear-gradient(rgba(0, 0, 0, 0.514), rgba(0, 0, 0, 0)), url(./images/fritz\ roy.jpg);
+    background-position: top;
+    background-size: cover;
+    background-size: 80%;
+} 
+.faro {
+    background-image:linear-gradient(rgba(0, 0, 0, 0.514), rgba(0, 0, 0, 0)), url(./images/ushuaia.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.div-txt{
+    display: flex;
+    flex-direction: column;
+    margin-left: 9.5%;
+}
+.txt1{
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+.txt2 {
+    font-size: 1rem;
+}
+.text-grid {
+    text-decoration: none !important;
+    color: white;
+    font-weight: bold;
+    font-size: 1.3rem;
+    padding: 10px 10px;
+}
+
+/* aca termina el Grid */
+
+.hospedaje-container {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: auto;
+    height: auto;
+    justify-content: center;
+    /* border: 1px solid blue; */
+    
+}
+.hospedaje-imagenes{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    overflow-x: scroll ;
+    white-space: nowrap;
+    
+    
+}
+.hospedaje-imagenes a {
+    width: 300px;
+    height: 200px;
+    text-decoration: none;
+    margin-right: 10px;
+    margin-bottom: 50px;
+    
+    
+}
+.hotel {
+    background-image:linear-gradient(rgba(0, 0, 0, 0.514), rgba(0, 0, 0, 0)), url(./images/hotel.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.depa {
+    background-image:linear-gradient(rgba(0, 0, 0, 0.514), rgba(0, 0, 0, 0)), url(./images/departamento.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.casa {
+    background-image:linear-gradient(rgba(0, 0, 0, 0.514), rgba(0, 0, 0, 0)), url(./images/casa.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.camping {
+    background-image:linear-gradient(rgba(0, 0, 0, 0.514), rgba(0, 0, 0, 0)), url(./images/camping.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.caba {
+    background-image:linear-gradient(rgba(0, 0, 0, 0.514), rgba(0, 0, 0, 0)), url(./images/cabañas.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+
+.footer-box {
+    height: 300px;
+    background-image:linear-gradient(#000000a9 ,#000000c9 , #000000), url(./images/vacaciones.jpg);
+    background-position: center;
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
