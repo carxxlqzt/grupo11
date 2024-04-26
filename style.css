@@ -39,10 +39,17 @@
 .palm{
     height:2rem;
     margin-right: 1rem;
+    animation-duration: 2s !important;
+    transition: linear !important;
+
 }
 .titlepage{
     font-family: "Love Ya Like A Sister" !important;
-    font-weight: 400;}
+    font-weight: 400;
+    animation-duration: 1.5s !important;
+    transition: linear !important;
+}
+
 .nav-fixed {
     position: fixed;
     top:0;
@@ -51,4 +58,20 @@
     z-index:1;
     
 
+}
+.final{
+    width: 100vw;
+    
+}
+.creditos{
+    height: 5vh;
+    width: 100vw !important;
+    padding:  1.5rem;
+    background-color: rgba(0, 0, 0, 0.312);
+}
+.creditos>p{
+    font-family: "Inconsolata", monospace !important;
+    font-size: 0.8rem;
+    padding: 0;
+    margin: 0;
 }
